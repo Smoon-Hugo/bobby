@@ -6,4 +6,7 @@ export default defineNuxtConfig({
       supabaseKey: process.env.SUPABASE_KEY,
     },
   },
+  css: ["~/assets/css/tailwind.css"],
+  modules: ["@nuxtjs/tailwindcss"],
+  compatibilityDate: "2025-03-29",
 });
