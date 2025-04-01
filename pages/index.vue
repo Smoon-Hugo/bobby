@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+import CardArticle from "~/components/cards/CardArticle.vue";
 </script>
 
 <template>
@@ -10,8 +11,12 @@
     class=" rounded-xl w-10/12"/>
   </section>
 
-  <section id="trending" class="bg-blue-400 mx-auto w-10/12">
-     <h3>TENDANCES</h3>
+  <section id="trending" class= "mx-auto w-10/12">
+    <div><h3>NOS CLAVIERS</h3></div>
+
+    <div>
+      <CardArticle/>
+    </div>
   </section>
 </div>
 </template>
